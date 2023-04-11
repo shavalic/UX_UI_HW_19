@@ -41,6 +41,32 @@ button {
   border-radius: 4px;
 }
 
+.tabs {
+  align-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 15px 5px;
+
+}
+
+.tabs-1 {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tabs-2 {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.tabs-3 {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
 .mySkills {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

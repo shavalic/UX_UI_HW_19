@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sabina</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+   
   </head>
   <body>
+
+    
+
     <header>
       <img src="images/logopic copy.png">
       <ul>
@@ -29,7 +35,63 @@
 <section>
 
   <section class="mySkills">
+
+    
+
+
+
+
     <h1> My Skills</h1>
+
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    } );
+    </script>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">User Research</a></li>
+        <li><a href="#tabs-2">User Empathy</a></li>
+        <li><a href="#tabs-3">Qualitative Research</a></li>
+      </ul>
+      <div id="tabs-1">
+        <section class="flexContainer">
+          <div>
+            <img src="images/uxresearch.png">
+            <h3> User Research</h3>
+            <p> I approach research with an open mind and concrete goals. Aside from user interviews and usability tests, I love collaborating with my team identifying relationships, patterns, and similarities among data using affinity diagrams and feature prioritization matrices.
+            </p>
+          </div>
+      </div>
+
+      <div id="tabs-2">
+        <section class="flexContainer">
+        <div>
+          <img src="images/empathypic.png">
+          <h3> User Empathy</h3>
+          <p> It’s always fun to start by creating a proto-persona!  Then, to really understand who the user is and their needs, I generate user personas using combinations of results from interviews, empathy mapping, surveys, and affinity diagrams.</p>
+        </div>
+      </div>
+
+      <div id="tabs-3">
+        <section class="flexContainer">
+          <div>
+            <img src="images/interviewpic.png">
+            <h3> Qualitative Interviews</h3>
+            <p> One of my favorite parts of UX research is conducting qualitative interviews. I start with a plan identifying clear objectives and goals and love incorporating the 5 Whys Method while asking intro, problem ID, and behavioral questions.</p>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+
     <section class="flexContainer">
       <div>
         <img src="images/uxresearch.png">
@@ -51,6 +113,7 @@
       </div>
 
     </div>
+  
   </section>
   </section>
 
@@ -115,4 +178,10 @@
     </footer>
     </section>
   </body>
+
+  <script src="js/index.js"></script>
+  
+  
+
 </html>
+
